@@ -2,7 +2,7 @@
 
 ## Schedule
 - Ａ版的Deadline为2018.9.21
-- Wiki freaze为2018.10.17
+- Wiki freeze为2018.10.17
 
 
 ## Explanation
