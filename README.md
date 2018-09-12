@@ -12,3 +12,14 @@
 
 ## websites
 
+#### iGEM wikis
+- http://2017.igem.org/Team:Florida_Atlantic
+- http://2017.igem.org/Team:HFUT-China
+- http://2017.igem.org/Team:IIT-Madras
+- http://2017.igem.org/Team:Michigan_Software
+- http://2017.igem.org/Team:NCTU_Formosa
+- http://2017.igem.org/Team:SJTU-Software
+- http://2017.igem.org/Team:SYSU-Software
+
+#### References
+
