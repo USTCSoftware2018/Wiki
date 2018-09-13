@@ -23,6 +23,8 @@
 
 #### References
 
+- https://www.pgsuae.com/ 这个 Website 的翻牌效果感觉不错，可以和抽卡结合，网站整体感觉也很好
+- https://jannataresort.com/ 这个网站 The Stay 的部分感觉很不错，一张图片切成三部分，鼠标移到外面就换成三张图片，鼠标在不同的部分还会显示不同的图片。
 
 
 
