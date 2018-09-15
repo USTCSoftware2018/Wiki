@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url('century.ttf');
+}
+html, body {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.p1-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Century Gothic", Serif;
+}
+.section {
+    text-align: center;
+}

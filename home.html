@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+    </head>
+    <body>
+        <div id="fullpage">
+            <div class="section" id="section1">
+                <div class="p1-title">biohub</div>
+            </div>
+            <div class="section">
+                <div class="slide" data-anchor="slide1">Slide 2.1</div>
+                <div class="slide" data-anchor="slide2">Slide 2.2</div>
+            </div>
+            <div class="section">Section 3</div>
+            <div class="section">Section 4</div>
+        </div>
+        <script>
+            new fullpage('#fullpage', {
+                sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+            });
+        </script>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+
+    })
+</script>
