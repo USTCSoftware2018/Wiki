@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+        <script src="semantic.min.js"></script>
+        <link rel="stylesheet" href="semantic.min.css" />
+    </head>
+    <body>
+        <div class="ui menu pointing fixed" id="menu">
+            <div class="right menu">
+                <a class="active item" data-menuanchor="firstPage" href="#firstPage">Page 1 </a>
+                <a class="item" data-menuanchor="secondPage" href="#secondPage">Page 2</a>
+                <a class="item" data-menuanchor="thirdPage" href="#thirdPage">Page 3</a>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="three wide column"></div>
+            <div class="three wide column">
+                <div class="ui secondary vertical pointing menu" id="leftnav" style="height: 100%;padding-top: 100px;">
+                    <div class="item">
+                        <div class="header">Products</div>
+                        <div class="menu">
+                            <a class="item">Enterprise</a>
+                            <a class="item">111</a>
+                        </div>
+                    </div>
+                    <a class="item">Messages </a>
+                    <a class="item">Item 3</a>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="inside-container" style="height: 100%;padding-top: 100px;">
+                    <div style="width: 80%">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('.container').height($(window).height()-$('#menu').height())       
+        $('.wide').height($(window).height()-$('#menu').height() - 15)
+        $('#leftnav').height($(window).height() - $('#menu').height() - 100)
+    })
+</script>
