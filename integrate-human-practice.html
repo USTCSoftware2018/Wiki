@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+        <script src="semantic.min.js"></script>
+        <link rel="stylesheet" href="semantic.min.css" />
+    </head>
+    <body>
+        <div class="ui menu pointing fixed" id="menu">
+            <div class="right menu">
+                <a class="active item" data-menuanchor="firstPage" href="#firstPage">Page 1 </a>
+                <a class="item" data-menuanchor="secondPage" href="#secondPage">Page 2</a>
+                <a class="item" data-menuanchor="thirdPage" href="#thirdPage">Page 3</a>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="two wide column"></div>
+            <div class="four wide column">
+                <div class="ui secondary vertical pointing menu" id="leftnav" style="height: 100%;padding-top: 100px;width: 90%;">
+                    <div class="item">
+                        <div class="header">Human Practice</div>
+                        <div class="menu">
+                            <a class="item leftnav-item">Human Practice</a>
+                            <a class="item active leftnav-item">Integrated Human Practice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="inside-container" style="height: 100%;padding-top: 100px;">
+                    <h1>Integrated Human Practice</h1>
+                    <h3>Asia-Pacific Conference in Taiwan</h3>
+                        <p>We attended International Genetically Engineered Machine Conference held by National Chung Hsing University from July 30th to August 3rd 2018. Over 20 iGEM teams attended the conference and 5 members of our team was sent to Taiwan.</p>
+                        <p>During the conference, the iGEMers communicated, changed ideas and learned from one another. The conference is not only a simple warm-up for the upcoming world championship in Boston, but an Asian regional platform for teams from different countries to exchange ideas and explore synthetic biology as well. All the teams made a project presentation and introduced their projects. In this way, we received useful feedbacks and technology-improvement suggestions from students and professors of other teams.</p>
+                        <div class="divider"></div>
+                    <h3>Software Promotion</h3>
+                        <p>Since our software is an open and fantastic platform with practical functions for synthetic biologists, it’s of great importance to promote our software to synthetic biology related users.</p>
+                        <p>To find out whether our improvement above is useful or not, We packed up an alpha version distributing to schoolmates whose major is biology in September. And in October we packed a more advanced version to some igem teams worldwide. We introduced them to Bioeditor and its basic usage. After they had used this software for a while, most of them reported that it was quite useful. And then we have packed our completed version to the real synthetic biologists by now.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('.container').height($(window).height()-$('#menu').height())       
+        $('.wide').height($(window).height()-$('#menu').height() - 15)
+        $('#leftnav').height($(window).height() - $('#menu').height() - 100)
+    })
+</script>

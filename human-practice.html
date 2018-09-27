@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+        <script src="semantic.min.js"></script>
+        <link rel="stylesheet" href="semantic.min.css" />
+    </head>
+    <body>
+        <div class="ui menu pointing fixed" id="menu">
+            <div class="right menu">
+                <a class="active item" data-menuanchor="firstPage" href="#firstPage">Page 1 </a>
+                <a class="item" data-menuanchor="secondPage" href="#secondPage">Page 2</a>
+                <a class="item" data-menuanchor="thirdPage" href="#thirdPage">Page 3</a>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="two wide column"></div>
+            <div class="four wide column">
+                <div class="ui secondary vertical pointing menu" id="leftnav" style="height: 100%;padding-top: 100px;width: 90%;">
+                    <div class="item">
+                        <div class="header">Human Practice</div>
+                        <div class="menu">
+                            <a class="item active leftnav-item">Human Practice</a>
+                            <a class="item leftnav-item">Integrated Human Practice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="inside-container" style="height: 100%;padding-top: 100px;">
+                    <h1>Human Practice</h1>
+                    <h3>Science and Technology Week</h3>
+                        <p>Science and Technology Week is is a large-scale, centralized science popularization campaign organized by the China University of Science and Technology. This year, Science and Technology Week attracted over ten thousand citizens to USTC, varying from innocent pupils, high school students and college students in biology-related majors to the public from all walks who may have limited knowledge of Synthetic Biology. Our team cooperated with Team USTC and offered visitors a feast of biological knowledge and a chance to cultivate interest in biology.</p>
+                        <p>We introduced elementary knowledge of genetics to citizens by poster presentation and our explanation, then showed them some basic experiment operation, like liquid relief, centrifugation and etc. We educate and inspire visitors' interest by allowing them to observe biochemical-related sections under a laboratory microscope. In addition, we distributed questionnaires to visitors to get their feedback on synthetic biology to improve our design of our software.</p>
+                        <div class="divider"></div>
+                    <h3>Student Open Source Conference</h3>
+                        <p>The Student Open Source Annual Meeting is the first open source technology summit in China that is organized by student organizations. The main theme of the conference is understanding, participating in, and contributing to open source. Our team signed up for this annual meeting.At the meeting, our team leader and a team member worked together to complete the report on our iGEM project. We introduced the iGEM competition and the synthetic biology to the audience.At the same time, we also introduced the positive significance of our project to synthetic biology to the audience. We received useful feedbacks and technology-improvement suggestions from audience.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('.container').height($(window).height()-$('#menu').height())       
+        $('.wide').height($(window).height()-$('#menu').height() - 15)
+        $('#leftnav').height($(window).height() - $('#menu').height() - 100)
+    })
+</script>

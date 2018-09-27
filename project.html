@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+        <script src="semantic.min.js"></script>
+        <link rel="stylesheet" href="semantic.min.css" />
+    </head>
+    <body>
+        <div class="ui menu pointing fixed" id="menu">
+            <div class="right menu">
+                <a class="active item" data-menuanchor="firstPage" href="#firstPage">Page 1 </a>
+                <a class="item" data-menuanchor="secondPage" href="#secondPage">Page 2</a>
+                <a class="item" data-menuanchor="thirdPage" href="#thirdPage">Page 3</a>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="two wide column"></div>
+            <div class="four wide column">
+                <div class="ui secondary vertical pointing menu" id="leftnav" style="height: 100%;padding-top: 100px;width: 90%;">
+                    <div class="item">
+                        <div class="header">Project</div>
+                        <div class="menu">
+                            <a class="item active leftnav-item">Description</a>
+                            <a class="item leftnav-item">Implementation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="inside-container" style="height: 100%;padding-top: 100px;">
+                    <h1>Project</h1>
+                    <h3>Overview</h3>
+                        <p>Our product is a general-purpose experimental description language and related platform that focuses on simplifying the writing of experimental reports and standardize the description of the experimental process. </p>
+                        <p>On the one hand, we can reduce the burden on researchers in the completion of experimental reports. On the other hand, we can reduce unnecessary misunderstandings during the exchange of experiments by constructing a standardized discription.</p>
+                        <p>We developed our search engine for biobricks on the base of 2017's project.Our engine have a better command of language recognition.It is easier for synthetic biologists to find what they need without many input's restructions.Besides, we have added many useful databases and academic websites to search engines.So biologists could search information more quickly.</p>
+                        <p>Meanwhile, this platform can also realize user-to-user communication. Users could post issues and discuss solutions related to experiments in this community. Under our standard, experimental reports will be comprehended quickly by other researchers, and information exchange will be more convenient.During a new experiment,some problems might be avoided though searching for related reports in community, which can improve efficiency and success rate.It integrates functions of report editor,search engine.</p>
+                    <div class="divider"></div>
+                    <h3>Motivation</h3>
+                        <p>After consulting with many synthetic biology workers, we found that they would inevitably suffer from the need to spend a lot of time to complete the experimental report during the experiment. At the same time, they will be prone to problems when communicating with each other for the sake of difficulty in harmonizing standards. Therefore, there is an urgent need for a standardized language to accurately describe the experimental process, and to provide a number of practical tools such as drawing, tabulation, writing articles, etc., thereby solving these problems. </p>
+                        <p>As we all know,too programmer-style search engine is very unfriendly to synthetic biologists, so we reinforce functions of search engines.Researchers can easily find reports written by others after inputting some key words.They could also search information in some databases and websites directly though this engine.</p>
+                        <p>For most synthetic biology workers, it is difficult for them to conduct effective communication on experimental content. So we established a synthetic biology community based on search engine and report editor. In this community, bio workers can use this to record their experimental process and comment on other scholar's reports, thereby reducing the blindness of the research.</p>
+                        <h3>To be improved</h3>
+                        <p>The interface design of the editor is not yet fully finalized. We also need to further refine the design and implementation based on the features we want to implement. At the same time, we will add and debug more new features. The communication platform we will build will also begin testing.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('.container').height($(window).height()-$('#menu').height())       
+        $('.wide').height($(window).height()-$('#menu').height() - 15)
+        $('#leftnav').height($(window).height() - $('#menu').height() - 100)
+    })
+</script>

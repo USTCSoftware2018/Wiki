@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fullpage.js"></script>
+        <link rel="stylesheet" href="fullpage.css" />
+        <script src="semantic.min.js"></script>
+        <link rel="stylesheet" href="semantic.min.css" />
+    </head>
+    <body>
+        <div class="ui menu pointing fixed" id="menu">
+            <div class="right menu">
+                <a class="active item" data-menuanchor="firstPage" href="#firstPage">Page 1 </a>
+                <a class="item" data-menuanchor="secondPage" href="#secondPage">Page 2</a>
+                <a class="item" data-menuanchor="thirdPage" href="#thirdPage">Page 3</a>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="two wide column"></div>
+            <div class="four wide column">
+                <div class="ui secondary vertical pointing menu" id="leftnav" style="height: 100%;padding-top: 100px;width: 90%;">
+                    <div class="item">
+                        <div class="header">Requirements</div>
+                        <div class="menu">
+                            <a class="item active leftnav-item">Contribution</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="inside-container" style="height: 100%;padding-top: 100px;">
+                    <h1>Requirements</h1>
+                    <h3>Contribution</h3>
+                        <p>Bioeditor is designed for synthetic biologists, focusing on completing standardized experimental reports quickly and accurately. It is also a versatile software to meet the needs of synthetic biologists. It reduces the barriers of synthetic biologists in the communication process.</p>
+                        <p>Please visit Description for more details about our project and what we have achieved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('.container').height($(window).height()-$('#menu').height())       
+        $('.wide').height($(window).height()-$('#menu').height() - 15)
+        $('#leftnav').height($(window).height() - $('#menu').height() - 100)
+    })
+</script>
