@@ -10,18 +10,22 @@
 #### Frontend
 
 - Yi Jingwei    the group leader of frontend
-- Chen Lutong   the group member of frontend
-- Xie Bohao   the group member of frontend
-- Wang Tong   the group member of frontend
-- Yu Zihao   the group member of frontend
-- Gao Nan    the group member of frontend
+
+- Chen Lutong   the group leader of frontend
+
 - He Liyang    the group member of frontend
+
+- Wang Tong   the group member of frontend
+
+- Yu Zihao   the group member of frontend
+
+- Gao Nan    the group member of frontend
+
 
 #### Backend
 
 - He Jiyan    the group leader of backend
 - Ma Kai  the group member of backend
-- Zhang hao  the group member of backend
 - Guan Xiuxian  the group member of backend
 - Zhang Bowen  the group member of backend
 - Zheng Qixuan   the group member of backend
@@ -60,8 +64,6 @@
 ### Collaborations
 
 #### Team USTC
-
-USTC has been one of our traditional collaborators.
 
 Focusing on the establishment and improvement of a synthetic biology editor this year, USTC, as potential users of our bio-editor, offered us needs and opinions in application design and homepage design. For example, they suggested adding an Graphical interface to lower user threshold in which iGEMers can complete the experiment report concerning this competition .They also helped us with biological problems we came across, such as the biological background of comparative sequence analysis.
 
