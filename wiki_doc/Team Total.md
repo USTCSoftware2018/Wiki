@@ -65,9 +65,9 @@
 
 #### Team USTC
 
-Focusing on the establishment and improvement of a synthetic biology editor this year, USTC, as potential users of our bio-editor, offered us needs and opinions in application design and homepage design. For example, they suggested adding an Graphical interface to lower user threshold in which iGEMers can complete the experiment report concerning this competition .They also helped us with biological problems we came across, such as the biological background of comparative sequence analysis.
+==Focusing on the establishment and improvement of a synthetic biology editor this year, USTC, as potential users of our bio-editor, offered us needs and opinions in application design and homepage design. For example, they suggested adding an Graphical interface to lower user threshold in which iGEMers can complete the experiment report concerning this competition .==They also helped us with biological problems we came across, such as the biological background of ==comparative sequence== analysis.
 
-In return, we share them with some useful tricks. And we also help them in website making and modeling, which speed their work greatly. Besides, we held the annual Science and Technology Week, which spreads the synthetic knowledge to the public.
+In return, we share them with some useful ==tricks(programming techniques instead)==. And we also help them in website making and modeling, which speed their work greatly. Besides, we held the annual Science and Technology Week, which spreads synthetic biology knowledge to the public. 
 
 
 
@@ -75,15 +75,15 @@ In return, we share them with some useful tricks. And we also help them in websi
 
 #### Developing
 
-We sincerely thank team **USTC-Software-2017**, who gave us much advice,and their project, **Biohub 2.0**, from which our project got helped.
+We sincerely thank team **USTC-Software-2017**, who gave us much advice, and their project, **Biohub 2.0**, from which our project got helped.
 
-We sincerely thank all free softwares and librarys that we use like **Vue.js**, **axios** and **webpack**. They are the foundation of our project.
+We sincerely thank all free software that we use like **Vue.js**, **axios** and **webpack**. They are the foundation of our project.
 
 #### Support
 
-We sincerely thank our advisors--**Professor Liu Haiyan**, who helped us determine the topic of our project, and **Dr. Hong Jiong**, who gave us lots of valuable advices in basic biology during our working process.
+We sincerely thank our advisors--**Professor Liu Haiyan**, who helped us determine the topic of our project, and **Dr. Hong Jiong**, who gave us lots of valuable advice in basic biology during our working process.
 
-We sincerely thank the **Western Library of USTC** for their generously providing a room of long-term use for us making great progresses there.
+We sincerely thank the **Western Library of USTC** for their generously providing a room of long-term use for us making great progress there.
 
 We sincerely thank the **University of Science and Technology of China Initiative Foundation** for their sponsorship all these years.
 
@@ -91,7 +91,7 @@ We sincerely thank the **School of Life Sciences, USTC** for their academic supp
 
 #### iGEM Foundation
 
-We sincerely thank **Maria Bartolini**, **Vinoo Selvarajah**, **Suzie McLellan Soloviev** and **Traci Haddock-Angelli** for offering us help, answering our questions when we developed our project.
+We sincerely thank==**Maria Bartolini**, **Vinoo Selvarajah**, **Suzie McLellan Soloviev** and **Traci Haddock-Angelli**== for offering us help, answering our questions when we developed our project.
 
 #### Project
 
@@ -104,11 +104,11 @@ We sincerely thank **Maria Bartolini**, **Vinoo Selvarajah**, **Suzie McLellan S
 
 #### Human Practice
 
-**Science and Technology Week Committee** provided us a space to introduce our project and iGEM competition to the citizens.
+**Science and Technology Week Committee** provided us a chance to introduce our project and iGEM to the ==citizens==.
 
-**Asia-Pacific Conference in Taiwan** provided an Asian regional platform for teams from different countries to exchange ideas and explore synthetic biology.We made a project presentation and introduced our projects.
+**Asia-Pacific iGEM Conference in Taiwan** provided ==an Asian regional platform== for teams from different countries to exchange ideas and explore synthetic biology. We made a project presentation and introduced our projects.
 
-We sincerely thank all the schoolmates and igem teams using our software during our development. They provided many useful advice that help us improve our project.
+We sincerely thank all the ==schoolmates(students instead)== and iGEMers using our software during our development. They provided a lot of useful advice and helped us improve our project.
 
 
 
@@ -118,13 +118,13 @@ We sincerely thank all the schoolmates and igem teams using our software during 
 
 #### Overview
 
-​	Our products include an editor that quickly completes high-quality lab reports, and a platform to showcase and communicate experiment-related content. It focuses on simplifying the writing of experimental reports and standardizing the description of the experimental process. 
+​	Our product include an editor which can help you completes high-quality lab reports quickly, and a platform to ==showcase and communicate experiment-related content==. It focuses on simplifying the writing of experimental reports and standardizing the description of the experimental process. 
 
 ​	We can reduce the burden on researchers in the completion of experimental reports. Also, we can reduce unnecessary misunderstandings during the exchange of experiments by constructing a standardized discription.
 
-​        We developed our search engine for biobricks on the base of 2017's project.Our engine has a better command of language recognition.It is easier for synthetic biologists to find what they need without many input's instructions.Additionally, we have added many useful databases and academic websites to search engines,so biologists could search information more quickly.
+​        We developed our search engine for biobricks on the base of ==2017's project==. Our engine has ==a better command of language recognition==. It is easier for synthetic biologists to find what they need without many ==input's instructions==.Additionally, we have added many useful databases and academic websites to our search engine, so biologists could search information more quickly.
 
-​	Meanwhile, the platform provides the focus of attention, enabling researchers to get new insights into the areas they need faster. Users could post issues and discuss solutions related to experiments in this community. Under our standard, experimental reports will be comprehended quickly by other researchers, and information exchange will be more convenient.During a new experiment,some problems might be avoided through searching for related reports in community, which can improve efficiency and success rate.It integrates functions of report editor,search engine.
+​	Meanwhile, the platform provides ==the focus of attention==, enabling researchers to get new insight into the areas they need ==faster==. Users could post issues and discuss solutions related to experiments in this community. Under our standard, experimental reports will be comprehended quickly by other researchers, and ==information exchange will be more convenient==. During a new experiment, some problems might be avoided through searching for related reports in the community, which can improve the efficiency and success rate. It integrates functions of report editor,search engine.
 
 #### Motivation
 
