@@ -36,7 +36,7 @@ Look! A lovely panda is shaking its hands to welcome you once you hang your mo
 
 This online `editor` is a good way to recording your experiment. Once finishing reading this brief guide, you will know how fast and how easy we can achieve this goal.
 
-We divide an experiment report into three parts: `info`, `Processes` and `Result`
+We divide an experiment report into three parts: `info`, `protocoles` and `Result`
 
 Here is the appearance of our `editor` and it initials an empty report when the `editor` button on the top is clicked:
 
@@ -46,7 +46,7 @@ In the Info block, you can input title, labels and abstract like this:
 
 ![editor](./img/editor_info.png)
 
-The left sider is a toolbox that contains `process` and `steps`. You can see there are some several steps and process that is created for you, you can create more stepstep and process as you wish.
+The left sider is a toolbox that contains `protocol` and `steps`. You can see there are some several steps and protocol that is created for you, you can create more stepstep and protocol as you wish.
 
 Now let's click a `Add` step to see what will happen.
 
@@ -54,13 +54,13 @@ Now let's click a `Add` step to see what will happen.
 
 A new `Centifuge` Step is inserted into the report. The only thing you need to do is to fill some blanks. That is how you record a '12000 rpm centifuge for 30 s at 25 degree.'. Is that amazing? But we can make it much more faster.
 
-`Process` is a set of steps or a template. Let's try `Gel Extraction`.
+`protocol` is a set of steps or a template. Let's try `Gel Extraction`.
 
-![editor](./img/editor_process.png)
+![editor](./img/editor_protocol.png)
 
 A serial of steps is inserted into your report and most of these blanks is accomplished by our templates.
 
-It is true that the available `steps` and `process` are not able to meet all your demands. But you can create new steps and process. Here is an example:
+It is true that the available `steps` and `protocol` are not able to meet all your demands. But you can create new steps and protocol. Here is an example:
 
 ![editor](./img/editor_new.png)
 
