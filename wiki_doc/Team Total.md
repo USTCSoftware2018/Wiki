@@ -130,7 +130,7 @@ We sincerely thank all the ==schoolmates(students instead)== and iGEMers using o
 
 #### Motivation
 
- 	 After consulting with many synthetic biology workers, we found that they would inevitably suffer from the need to spend a lot of time to complete the experimental report during the experiment. At the same time, they would be prone to problems when communicating with each other for the sake of difficulty in harmonizing standards. Therefore, there is an urgent need for a standardized language to accurately describe the experimental process, and to provide a number of practical tools such as drawing, tabulation, writing articles, etc., thereby this solves these problems. 
+ 	 After consulting with several synthetic biology workers, we found that they would inevitably suffer from ==the need to spend a lot of time to complete the experimental report during the experiment==. At the same time, they would be prone to problems when communicating with each other for the sake of difficulty in harmonizing standards. Therefore, there is an urgent need for a standardized language to accurately describe the experimental process, and to provide a number of practical tools such as drawing, tabulation, writing articles, etc., thereby this solves these problems. 
 
 ​      As we all know,too programmer-style search engine is very unfriendly to synthetic biologists, so we reidesigned functions of search engines.Researchers can easily find reports written by others after inputting some key words.They could also search information in some databases and websites directly though this engine.      
 
