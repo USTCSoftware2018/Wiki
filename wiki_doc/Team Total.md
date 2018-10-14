@@ -21,6 +21,8 @@
 
 - Gao Nan    the group member of frontend
 
+- Peng Yixing    the group member of frontend
+
 
 #### Backend
 
