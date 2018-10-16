@@ -1,0 +1,21 @@
+# Debug 
+
+- 进主页的时候默认选择Reports
+- iGEMers 改为 Users
+- 用户头像点击无法进入个人中心
+- 评论之后无法再次评论
+- 注册页的igemers改成researchers
+- 椭圆头像collections
+- 新建用户没有自我介绍的时候给出提示
+- 收藏失败
+- 未登录时返回取step, 和 **subroutine?**
+- 点击logo来到404页面。。。
+- https://biohub.tech/userprofile/1/index页面没有处理Reports过长
+- 进入某个label中，sort无效
+- 通知系统常常bug
+- 没有forgot password不如删除掉吧
+- 操作成功或者失败的提示栏遮住了导航栏
+- linux上chrome多个页面字体不对
+- settings里面的variable
+- 编辑器未加入material 和 equipment
+- 编辑器顶部图标被遮住桌面端无法操作
