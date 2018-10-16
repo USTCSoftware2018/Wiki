@@ -7,6 +7,12 @@ Science and Technology Week is is a large-scale, centralized science popularizat
 we distributed questionnaires to visitors to get their feedback on
 synthetic biology to improve our design of our software.
 
+![](./_DSC7363.JPG)
+
+![](./_DSC7368.JPG)
+
+## Integrated Human Practice
+
 ### Student Open Source Conference
 
 ###### Motivation
@@ -21,6 +27,10 @@ At the conference, our leader Wang Hao introduced the iGEM competition,  as well
 
 After the conference, we received some feedback from the audience. Based on their suggestions, we made some changes to our project. For example, we decided to change the UI design to improve user experience. And we wanted to  build a community like GitHub, in which synthetic biology researchers can exchange their thoughts, share their experiences, and avoid the mistakes if some researcher has done the experiment before.
 
+![](./_DSC7724.JPG)
+
+![](./_DSC7730.JPG)
+
 #### Asia-Pacific Conference in Taiwan
 
 ###### Motivation
@@ -34,3 +44,8 @@ During the conference, the iGEMers communicated, exchanged ideas and learned fro
 ###### Integrated into the project
 
 We have learned from other teams that the steps we provided are not enough for them to finish most of the reports. So we designed that users can create new steps and processes. And users can insert texts, pictures, lists and tables freely in the result section.
+
+![](./ORG__DSC0080 .jpg)
+
+![](./ORG__DSC0091.jpg)
+
