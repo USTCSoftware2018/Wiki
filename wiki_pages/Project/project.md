@@ -1,24 +1,34 @@
 # Project
 
-### Description
+## Description
 
-#### Overview
+### Overview
 
-​	Our product include an editor which can help you completes high-quality lab reports quickly, and a platform to ==showcase and communicate experiment-related content==. It focuses on simplifying the writing of experimental reports and standardizing the description of the experimental process. 
+### What is BioHub 3.0?
 
-​	We can reduce the burden on researchers in the completion of experimental reports. Also, we can reduce unnecessary misunderstandings during the exchange of experiments by constructing a standardized discription.
+BioHub 3.0 is a synthetic biology community, integrated **Intelligent Search Engine** and the online report **editor**. It brings you a new way to edit your reports and search whatever you need only in one step.
 
-​        We developed our search engine for biobricks on the base of ==2017's project==. Our engine has ==a better command of language recognition==. It is easier for synthetic biologists to find what they need without many ==input's instructions==.Additionally, we have added many useful databases and academic websites to our search engine, so biologists could search information more quickly.
+#### The Editor
 
-​	Meanwhile, the platform provides ==the focus of attention==, enabling researchers to get new insight into the areas they need ==faster==. Users could post issues and discuss solutions related to experiments in this community. Under our standard, experimental reports will be comprehended quickly by other researchers, and ==information exchange will be more convenient==. During a new experiment, some problems might be avoided through searching for related reports in the community, which can improve the efficiency and success rate. It integrates functions of report editor,search engine.
+We established a standardized description of experimental steps. The editor can help you complete high-quality lab reports quickly just by choosing steps and filling in the blanks. Custom steps and protocols are also supported. And in our report editor, biologists could use a number of practical tools such as drawing, tabulation and writing articles, which improve the efficiency of completing the experiment report.
 
-#### Motivation
+#### Intelligent Search Engine
 
- 	 After consulting with several synthetic biology workers, we found that they would inevitably suffer from ==the need to spend a lot of time to complete the experimental report during the experiment==. At the same time, they would be prone to problems when communicating with each other for the sake of difficulty in harmonizing standards. Therefore, there is an urgent need for a standardized language to accurately describe the experimental process, and to provide a number of practical tools such as drawing, tabulation, writing articles, etc., thereby this solves these problems. 
+We developed our search engine on the base of 2017's project. Our engine has a better command of language recognition. It supports **semantic recognition**, like "reports today", "reports by ana", "reports this year" and edc.. Meanwhile, we listened to the opinions of the judges. This year we added **advanced search** and we can now sort the results by time, labels, etc.. It is easier for synthetic biologists to find what they need without many input's instructions. Additionally, we have added many useful databases and academic websites to our search engine, so biologists could search information more quickly.
 
-​      As we all know,too programmer-style search engine is very unfriendly to synthetic biologists, so we reidesigned functions of search engines.Researchers can easily find reports written by others after inputting some key words.They could also search information in some databases and websites directly though this engine.      
+#### The community
 
-​       For most synthetic biology workers, it is difficult for them to conduct effective communication on experimental content, so we established a synthetic biology community based on search engine and report editor. In this community, bio workers can use this to record their experimental process and comment on other scholar's reports, thereby reducing the blindness of the research.
+In this community, bio workers can record their experimental process and release those reports. Meanwhile, they could also read and comment on other scholar's reports. In this way, we make the academic discussion more convinent.  We provide both site search and off-site search to provide better user experience.
+
+### Motivation
+
+After consulting with several synthetic biology workers, we found that they would inevitably suffer from the need to spend a lot of time to complete the experimental report during the experiment. Therefore, there is an urgent need for a editor that provides a number of practical tools such as drawing, tabulation, writing articles by dragging steps or protocols to improve the efficiency. So it can replace the original Pages or Microsoft Office for its convenience.
+
+As we all know, too programmer-style search engine is very unfriendly to synthetic biologists, so we reidesigned functions of search engines. Researchers can easily find reports written by others after inputting some key words. They could also search information in some databases and websites directly though this engine.      
+
+ For most synthetic biology workers, it is difficult for them to conduct effective communication on experimental content, so we established a synthetic biology community based on search engine and report editor. In this community, bio workers can use this to record their experimental process and comment on other scholar's reports, thereby reducing the blindness of the research.
+
+
 
 #### To be improved（暂缺）
 
