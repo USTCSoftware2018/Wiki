@@ -22,14 +22,14 @@ Nginx is a web server which can also be used as a reverse proxy, load balancer, 
 
 Nginx uses an asynchronous event-driven approach, rather than threads, to handle requests. Nginx's modular event-driven architecture can provide more predictable performance under high loads.
 
-#### Standford CoreNLP
-<img style="float:right; width:30%" src="CoreNLP.png">
-CoreNLP is a program of natural language processing, it provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc.
-
-It make it very easy to apply a bunch of linguistic analysis tools to a piece of text. A tool pipeline can be run on a piece of plain text with just two lines of code. CoreNLP is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and disabled. 
-
 #### Django-rest-framework
 <img style="float:right; width:40%" src="django-rest-framework.png">
 Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 REST framework use packages for OAuth1a and OAuth2 in Authentication policies, its serialization that supports both ORM and non-ORM data sources. It customizable all the way down, and it has extensive documentation and great community support.
+
+#### Standford CoreNLP
+<img style="float:right; width:30%" src="CoreNLP.png">
+CoreNLP is a program of natural language processing, it provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc.
+
+It make it very easy to apply a bunch of linguistic analysis tools to a piece of text. A tool pipeline can be run on a piece of plain text with just two lines of code. CoreNLP is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and disabled. 
