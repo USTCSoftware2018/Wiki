@@ -24,7 +24,7 @@ In this community, bio workers can record their experimental process and release
 
 After consulting with several synthetic biology workers, we found that they would inevitably suffer from the need to spend a lot of time to complete the experimental report during the experiment. Therefore, there is an urgent need for a editor that provides a number of practical tools such as drawing, tabulation, writing articles by dragging steps or protocols to improve the efficiency. So it can replace the original Pages or Microsoft Office for its convenience.
 
-As we all know, too programmer-style search engine is very unfriendly to synthetic biologists, so we reidesigned functions of search engines. Researchers can easily find reports written by others after inputting some key words. They could also search information in some databases and websites directly though this engine.      
+As we all know, too programmer-style search engine is very unfriendly to synthetic biologists, so we redesigned functions of search engines. Researchers can easily find reports written by others after inputting some key words. They could also search information in some databases and websites directly though this engine.      
 
  For most synthetic biology workers, it is difficult for them to conduct effective communication on experimental content, so we established a synthetic biology community based on search engine and report editor. In this community, bio workers can use this to record their experimental process and comment on other scholar's reports, thereby reducing the blindness of the research.
 
@@ -64,13 +64,13 @@ The initial data will be imported into a separate database.Bioeditor will link t
 
 We followed last year's filtering of initial data to reduce the impact of unwanted bricks on search efficiency.We used natural language processing during the search process. After the language model is established, the extraction of text keywords is realized by processing such as statistical features such as TF and IDF. So that our search results are more in line with the needs of the user.
 
-At the same time, we have made the search conditions more diversified.Users can find the bricks they need more conveniently under more query conditions.
+At the same time, we have made the search conditions more diversified. Users can find the bricks they need more conveniently under more query conditions.
 
 We will recalculate the ranking weights at regular intervals. The reason for not evaluating them in real time is that the task may update the whole table and become time-consuming. 
 
 #### Frontend Part
 
-In most templating systems,any changes that the user makes to the view are not reflected in the model. This means that the developer has to write code that constantly synchronize the view with the model and the model with the view.
+In most templating systems, any changes that the user makes to the view are not reflected in the model. This means that the developer has to write code that constantly synchronize the view with the model and the model with the view.
 
 So we chose the Angular template, which works differently. Any changes to the view are immediately reflected in the model, and any changes in the model are propagated to the view.You can think of the view as simply an instant projection of your model.
 
