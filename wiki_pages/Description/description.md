@@ -12,11 +12,11 @@ We established a standardized description of experimental steps. The editor can 
 
 ##### Intelligent Search Engine
 
-We developed our search engine on the base of 2017's project. Our engine has a better command of language recognition. It supports **semantic recognition**, like "reports today", "reports by ana", "reports this year" and edc.. Meanwhile, we listened to the opinions of the judges. This year we added **advanced search** and we can now sort the results by time, labels, etc.. It is easier for synthetic biologists to find what they need without many input's instructions. Additionally, we have added many useful databases and academic websites to our search engine, so biologists could search information more quickly.
+We developed our search engine on the base of 2017's project. Our engine has a better command of language recognition. It supports semantic recognition, like "reports today", "reports by ana", "reports this year" and etc.. Meanwhile, we listened to the opinions of the judges. This year we added advanced search and we can now sort the results by time, labels, etc.. It is easier for synthetic biologists to find what they need without many input's instructions. Additionally, we have added many useful databases and academic websites to our search engine, so biologists could search information more quickly.
 
 ##### The community
 
-In this community, bio workers can record their experimental process and release those reports. Meanwhile, they could also read and comment on other scholar's reports. In this way, we make the academic discussion more convinent.  We provide both site search and off-site search to provide better user experience.
+In this extensible community, bio workers can record their experimental process and release those reports. Meanwhile, they could also read and comment on other scholar's reports. In this way, we make the academic discussion more convinent.  We provide both site search and off-site search to provide better user experience. Many fantastic functions could be integrated in this extensible community in the future.
 
 #### Motivation
 
