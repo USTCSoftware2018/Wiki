@@ -1,0 +1,363 @@
+<html>
+    <head>
+<script src="/wiki/index.php?title=Team:USTC-Software/js/jquery&amp;action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" rel="stylesheet">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" rel="stylesheet">
+
+<link href="/wiki/index.php?title=Team:USTC-Software/css/style&amp;action=raw&amp;ctype=text/css" rel="stylesheet">
+<script src="/wiki/index.php?title=Team:USTC-Software/js/fullpage&amp;action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+<script src="/wiki/index.php?title=Team:USTC-Software/js/semantic&amp;action=raw&amp;ctype=text/javascript" type="text/javascript">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+
+
+    </head>
+    <style>
+    #homepage{
+      transition: opacity 1s;
+    }
+
+     body {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body.ready {
+  opacity: 1;
+}
+.logo-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 240px;
+}
+.letters {
+  position: relative;
+  display: flex;
+  width: 682px;
+  height: 162px;
+}
+.letter {
+  position: relative;
+  width: 162px;
+  height: 162px;
+}
+.letter:not(:first-child) {
+  margin-left: -42px;
+}
+.letter-i {
+  z-index: 1;
+  width: 82px;
+  transform-origin: 100% 50%;
+}
+.letter-u {
+  z-index: 1;
+  width: 142px;
+  transform-origin: 100% 50%;
+}
+.dot {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  transform: scale(0);
+}
+.dot-i {
+  top: 0;
+  left: 240px;
+}
+.dot-e {
+  bottom: 0;
+  right: 0;
+}
+.logo-icon {
+  display: flex;
+  position: absolute;
+  left: 230px;
+  top: -10px;
+  width: 222px;
+  height: 62px;
+}
+.icon {
+  width: 62px;
+  height: 62px;
+  opacity: 0;
+}
+.icon-text {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 160px;
+  height: 62px;
+}
+.icon-text path,
+.icon-text polygon {
+  opacity: 0;
+}
+</style>
+
+    <body>
+      
+      <div class="logo-animation">
+  <div class="letters">
+    <div class="letter letter-b">
+      <svg viewBox="0 0 162 262">
+        <g fill="none" fill-rule="evenodd" stroke="#5E89FB">
+          <path class="fill in" stroke-width="40" d="M21 1V185M101 241H81a60 60 0 1 1 0-120c33.14 0 59 26.86 60 60v80"/>
+          <path class="fill out" stroke-width="40" d="M141 261V181c-1-33.14-26.86-60-60-60a60 60 0 1 0 0 120h20M21 185V1"/>
+          <path class="line out" stroke-width="2" d="M121 261V181.33C120.18 158.59 102.7 141 81 141a40 40 0 1 0 0 80h20v40H81A80 80 1 0 1 2 181V1h40V121c13.8 -15 89.66 -50 118.5 59V261Z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="letter letter-i">
+      <svg viewBox="0 0 82 262">
+        <g fill="none" fill-rule="evenodd" stroke="#18FF92">
+          <path class="fill in" stroke-width="40" d="M21 161v20a60 60 0 0 0 60 60"/>
+          <path class="fill out" stroke-width="40" d="M81 241a60 60 0 0 1-60-60V161"/>
+          <path class="line out" stroke-width="2" d="M81 221a40 40 0 0 1-40-40V161H1V181a80 80 0 0 0 80 80v-40z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="letter letter-o">
+      <svg viewBox="0 0 162 262">
+        <g fill="none" fill-rule="evenodd" stroke="#FB155A">
+          <path class="fill in" stroke-width="40" d="M81 121a60 60 0 1 0 0 120a60 60 0 1 0 0 -120"/>
+          <path class="fill out" stroke-width="40" d="M81 121a60 60 0 1 1 0 120a60 60 0 1 1 0 -120"/>
+          <path class="line out" stroke-width="2" d="M81 141a40 40 0 0 0 0 80a40 40 0 1 0 0 -80v-40a80 80 0 0 0 0 160a80 80 0 1 0 0 -160Z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="letter letter-h">
+      <svg viewBox="0 0 162 262">
+        <g fill="none" fill-rule="evenodd" stroke="#5E89FB">
+          <path class="fill in" stroke-width="40" d="M21 261V1"/>
+          <path class="fill out" stroke-width="40" d="M21 1v260"/>
+          <path class="fill in" stroke-width="40" d="M21 261V181c1-33.14 26.86-60 60-60a60 60 0 0 1 60 60v80"/>
+          <path class="fill out" stroke-width="40" d="M141 261V181a60 60 0 0 0-60-60c-33.14 0-59 26.86-60 60v80"/>
+          <path class="line out" stroke-width="2" d="M41 261V1H1v260h40z"/>
+          <path class="line out" stroke-width="2" d="M1 261V180.4C2.35 136.27 37.2 101 81 101a80 80 0 0 1 80 80v80h-40V181a40 40 0 0 0-40-40c-21.7 0-39.18 17.59-40 40.33V161H1z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="letter letter-u">
+      <svg viewBox="0 0 142 262">
+        <g fill="none" fill-rule="evenodd" stroke="#18FF92">
+          <path class="fill in" stroke-width="40" d="M21 121v70a50 50 0 0 0 100 0v-70"/>
+          <path class="fill out" stroke-width="40" d="M121 121v70a50 50 0 0 1 -100 0v-70"/>
+          <path class="line out" stroke-width="2" d="M1 121v70a70 70 0 0 0 140 0v-70h-40v70a30 30 0 0 1 -60 0v-70z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="letter letter-b">
+      <svg viewBox="0 0 162 262">
+        <g fill="none" fill-rule="evenodd" stroke="#FB155A">
+          <path class="fill in" stroke-width="40" d="M21 1V185M81 241a60 60 0 1 1 0-120a60 60 0 1 1 0 120"/>
+          <path class="fill out" stroke-width="40" d="M81 241a60 60 0 1 0 0 -120a60 60 0 1 0 0 120M21 185V1"/>
+          <path class="line out" stroke-width="2" d="M1 1v181a80 80 0 1 0 160 0a80 80 0 0 0 -160 0h40a40 40 0 1 0 80 0a40 40 0 0 0 -80 0v-181z"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
+      <div style="opacity: 0;" id="homepage">
+         <div class="ui menu pointing fixed" id="menu">
+                <a class=" item" href="index.html"><img style="width:6em" src="http://2018.igem.org/wiki/images/4/42/T--USTC-Software--logo3.jpg"></a>
+                <div class="ui item dropdown">Project
+<div class="menu">
+      <a class="item" href="Project.html#Overview">Overview</a>
+      <a class="item" href="Project.html#Motivation">Motivation</a>
+    </div>
+</div>
+<a class="item" href="Attributions">Attribution</a>
+<div class="ui item dropdown">Demonstrate
+<div class="menu">
+      <a class="item" href="Demonstrate#Overview">Overview</a>
+      <a class="item" href="Demonstrate#Motivation">Motivation</a>
+    </div>
+</div>
+<div class="ui item dropdown">Human Practice
+<div class="menu">
+      <a class="item" href="Human_Practices#Science and Technology Week">Science and Technology Week</a>
+      <a class="item" href="Human_Practices#Student Open Source Conference">Student Open Source Conference</a>
+      <a class="item" href="Human_Practices#Asia-Pacific Conference in Taiwan">Asia-Pacific Conference in Taiwan</a>
+      <a class="item" href="Human_Practices#Software Promotion">Software Promotion</a>
+    </div>
+</div>
+<div class="ui item dropdown">Implementation
+<div class="menu">
+      <a class="item" href="Implementation">Overview</a>
+    </div>
+</div>
+<div class="ui item dropdown">Model
+<div class="menu">
+      <a class="item" href="Project.html#Overview">Overview</a>
+      <a class="item" href="Project.html#Motivation">Motivation</a>
+    </div>
+</div>
+<div class="ui item dropdown">Medal
+<div class="menu">
+      <a class="item" href="Medal#Overview">Overview</a>
+      <a class="item" href="Medal#Motivation">Motivation</a>
+    </div>
+</div>
+<a class="ui item" href="Team.html">Team</a>
+<div class="ui item dropdown" href="ValidatedContribution">ValidatedContribution
+<div class="menu">
+      <a class="item" href="ValidatedContribution#Overview">Overview</a>
+      <a class="item" href="ValidatedContribution#Feedback">Feedback</a>
+      <a class="item" href="ValidatedContribution#Getting Started">Getting Started</a>
+      <a class="item" href="ValidatedContribution#Apply An Account">Apply An Account</a>
+      <a class="item" href="ValidatedContribution#Edit A New Report">Edit A New Report</a>
+      <a class="item" href="ValidatedContribution#Intelligent Search Engine">Intelligent Search Engine</a>
+      <a class="item" href="ValidatedContribution#Society">Society</a>
+      <a class="item" href="ValidatedContribution#For More Information">For More Information</a>
+    </div>
+</div>  
+</div>
+        <div id="fullpage">
+            <div class="section" id="section1">
+                <div class="p1-title">biohub</div>
+            </div>
+            <div class="section">
+                <div class="slide" data-anchor="slide1">Slide 2.1</div>
+                <div class="slide" data-anchor="slide2">Slide 2.2</div>
+            </div>
+            <div class="section">Section 3</div>
+        </div>
+<script src="/wiki/index.php?title=Team:USTC-Software/js/all&amp;action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+        <script src="/wiki/index.php?title=Team:USTC-Software/js/home&amp;action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+<script src="/wiki/index.php?title=Team:USTC-Software/js/init&amp;action=raw&amp;ctype=text/javascript" type="text/javascript"></script>
+</div>
+    </body>
+    <script>
+        var logoEl = document.querySelector('.logo-animation');
+var pathEls = document.querySelectorAll('.logo-animation path:not(.icon-curve)');
+var innerWidth = window.innerWidth;
+var maxWidth = 740;
+var logoScale = innerWidth <= maxWidth ? innerWidth / maxWidth : 1;
+var logoTimeline = anime.timeline({
+complete: function() {
+  document.querySelector('#homepage').style.opacity = 1;
+  logoEl.style.display = 'None';
+}
+});
+
+logoEl.style.transform = 'translateY(50px) scale('+logoScale+')';
+
+for (var i = 0; i < pathEls.length; i++) {
+  var el = pathEls[i];
+  el.setAttribute('stroke-dashoffset', anime.setDashoffset(el));
+}
+
+logoTimeline
+  .add({
+  targets: '.dot-e',
+  translateX: [
+    { value: -600, duration: 520, delay: 200, easing: 'easeInQuart' },
+    { value: [-100, 0], duration: 500, delay: 1000, easing: 'easeOutQuart' }
+  ],
+  scale: [
+    { value: [0, 1], duration: 200, easing: 'easeOutBack' },
+    { value: 0, duration: 20, delay: 500, easing: 'easeInQuart' },
+    { value: 1, duration: 200, delay: 1000, easing: 'easeOutQuart' },
+    { value: 0, duration: 400, delay: 500, easing: 'easeInBack' }
+  ],
+  offset: 0
+})
+  .add({
+  targets: '.dot-i',
+  translateY: { value: [-200, 0], duration: 500, elasticity: 400 },
+  scale: [
+    { value: [0, 1], duration: 100, easing: 'easeOutQuart' },
+    { value: 0, duration: 400, delay: 1400, easing: 'easeInBack' }
+  ],
+  delay: 1200,
+  offset: 0
+})
+  .add({
+  targets: '.fill.in',
+  strokeDashoffset: {
+    value: [anime.setDashoffset, 0],
+    duration: 600,
+    delay: function(el, i, t) { return 700 + ( i * 100 ); },
+    easing: 'easeOutQuart'
+  },
+  stroke: {
+    value: ['#FFF', function(el) { return anime.getValue(el.parentNode, 'stroke') } ],
+    duration: 500,
+    delay: 500,
+    easing: 'easeInQuad'
+  },
+  opacity: {
+    value: 0,
+    duration: 1,
+    delay: function(el, i, t) { return 1900 + ( i * 80 ); },
+  },
+  offset: 0
+})
+  .add({
+  targets: '.fill.out',
+  strokeDashoffset: [
+    { value: [anime.setDashoffset, anime.setDashoffset], duration: 1890 },
+    {
+      value: [0, anime.setDashoffset],
+      duration: 800,
+      delay: function(el, i) { return (i * 80); },
+      easing: 'easeInQuart'
+    }
+  ],
+  offset: 0
+})
+  .add({
+  targets: '.line.out',
+  strokeDashoffset: {
+    value: [0, anime.setDashoffset],
+    duration: 1200,
+    delay: function(el, i, t) { return 2500 + ( i * 100 ); },
+    easing: 'easeInQuart'
+  },
+  strokeWidth: {
+    value: [0, 2],
+    delay: function(el, i, t) { return 2000 + ( i * 100 ); },
+    duration: 200,
+    easing: 'linear'
+  },
+  offset: 0
+})
+  .add({
+  targets: '.icon',
+  opacity: { value: 1, duration: 10, delay: 2800, easing: 'linear' },
+  translateY: { value: 60, duration: 800 },
+  delay: 4200,
+  offset: 0
+})
+  .add({
+  targets: '.icon-line',
+  strokeDashoffset: [
+    { value: [anime.setDashoffset, anime.setDashoffset], duration: 3000 },
+    { value: 0, duration: 1200, easing: 'easeInOutQuart' }
+  ],
+  strokeWidth: {
+    value: [8, 2],
+    delay: 3000,
+    duration: 800,
+    easing: 'easeInQuad'
+  },
+  stroke: {
+    value: ['#FFF', function(el) { return anime.getValue(el, 'stroke') } ],
+    duration: 800,
+    delay: 3400,
+    easing: 'easeInQuad'
+  },
+  offset: 0
+})
+  .add({
+  targets: ['.icon-text path', '.icon-text polygon'],
+  translateY: [50, 0],
+  opacity: { value: [0, 1], duration: 100, easing: 'linear' },
+  delay: function(el, i, t) { return 4200 + ( i * 20 ); },
+  offset: 0
+});</script>
+</html>
