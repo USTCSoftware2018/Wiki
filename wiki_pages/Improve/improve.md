@@ -4,7 +4,7 @@
 
 Biohub 2.0 is a synthetic biology community, focusing on more efficient Biobricks information retrieval and more convenient biological ideas sharing. Apart from these functions, an online editor is added to BioHub 3.0. Users not only can finish their reports in a more convenient way, but also can release their reports and read or comment on other scholar's reports on this platform. Praise and collection are also supported. As an extensible community, more fantastic features would be integrated in the future. 
 
- #### Intelligent Search Engine
+#### Intelligent Search Engine
 
 The Intelligent Search Engine is based on 2017's project. The following features are added.
 
