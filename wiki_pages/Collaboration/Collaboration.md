@@ -1,6 +1,8 @@
 # Collaborations
 
-## SJTU
+
+
+## SJTU-Software
 
 ​	We have always maintained a good relationship with SJTU. We met at Taiwan and shared our thoughts about the development of Biohub with them. They think highly of the feature of experiment record. 
 
@@ -8,12 +10,26 @@
 
 ​	We really appreciate their suggestions and now we are doing our best to improve our project.
 
+![](./SJTU/校徽.jpg)
+
+![](./SJTU/T--SJTU-software--teamlogo.png)
+
+
+
 ## UESTC
 
 ​	We invited USETC to experience Biohub and they gave us useful feedback. "Biohub’s UI is awesome and has a sense of science and technology. Also, Biohub can respond fast and smoothly. However, there are also some places need to be improved. For example, there is no introduction to the function of Biohub at its homepage. Besides, it would be better to add the user guide to editor which could be very important for green hands."
 
 ​	 We have learned a lot from their feedback and now we are improving our function and making our project better.
 
+![](./UESTC/学校logo.png)
+
+![](./UESTC/UESTC-Software  logo.png)
+
 ## USTC
 
 ​	We had communicated with Team USTC frequently and realized that writing the experiment reports may be a difficult and duplicated thing. We got the inspiration from them and decided to develop our project now. During the process of developing, they helped us to build a professional and easy-to-use editor and a powerful search engine to help experimenters work effectively. They provide the knowledge we need and experience the functions and help us improving our project.
+
+![](./USTC/USTC.svg.png)
+
+![](./USTC/ustc_logo.png)
