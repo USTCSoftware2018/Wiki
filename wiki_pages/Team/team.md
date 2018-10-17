@@ -1,13 +1,13 @@
 # Team
 
-### Members
+## Members
 
-#### Management
+### Management
 
 - Wang Hao     the leader of the team
 - Zhang Hao    the manager of the team
 
-#### Frontend
+### Frontend
 
 - Yi Jingwei    the group leader of frontend
 - Chen Lutong   the group leader of frontend
@@ -17,7 +17,7 @@
 - Gao Nan    the group member of frontend
 - Peng Yixing    the group member of frontend
 
-#### Backend
+### Backend
 
 - He Jiyan    the group leader of backend
 - Ma Kai  the group member of backend
@@ -25,31 +25,31 @@
 - Zhang Bowen  the group member of backend
 - Zheng Qixuan   the group member of backend
 
-#### Wiki
+### Wiki
 
 - Guo Yaochi   the leader of the wiki
 - Pan Jie   the group member of wiki
 
-#### Art
+### Art
 
 - Li Wenrui   the leader of the art
 - Xie Bohao   the group member of the art
 - Wang Tong   the group member of the art
 
-#### Biology
+### Biology
 
 - Zhou Yitian   the leader of the biology
 - Cui Meiying    the group member of the biology
 
-#### Advisor
+### Advisor
 
 - Hong Jiong    Primary PI
 - Liu Haiyan    Secondary PI
 
-#### All staff
+### All staff
 
 - picture
 
-#### sponsor
+### sponsor
 
 - Logo
