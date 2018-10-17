@@ -34,7 +34,7 @@ label: #immunity
 
 In our project, we use an open-source software named **Stanford CoreNLP** (https://stanfordnlp.github.io/CoreNLP/) to parse the search string.
 
-![image-20181017181227081](../../../../../../Downloads/image-20181017181227081.png)
+![image-20181017181227081](image-20181017181227081.png)
 
 CoreNLP provides many underlying models so that we can get analysis information to construct more expressive and more human-friendly query.
 
