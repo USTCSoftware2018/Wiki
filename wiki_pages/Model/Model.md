@@ -53,7 +53,7 @@ In our project, we use **Django ORM** with MySQL backend as the underlying model
 
 WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The HTML5 WebSockets specification defines an API that enables web pages to use the WebSockets protocol for two-way communication with a remote host. It introduces the WebSocket interface and defines a full-duplex communication channel that operates through a single socket over the Web. HTML5 WebSockets provide an enormous reduction in unnecessary network traffic and latency compared to the unscalable polling and long-polling solutions that were used to simulate a full-duplex connection by maintaining two connections.
 
-![websocket.png](websocket.png)
+![websocket.jpg](websocket.jpg)
 
 In out project, we use WebSocket protocol to push our notifications. The WebSocket protocol makes the new notifications even real-time fast to be received.
 
