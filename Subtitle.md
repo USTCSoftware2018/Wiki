@@ -4,6 +4,10 @@ Welcome to Biohub 3.0,  your powerful Synthetic biology platform for experiment.
 
 
 
+W
+
+
+
 # 字幕
 
 欢迎来到Biohub 3.0, 你功能强大的实验辅助平台。Biohub 3.0专门为高效的实验设计、和共享实验内容打造。Now, let me take you through the routine to explore our website. 
@@ -22,9 +26,10 @@ Welcome to Biohub 3.0,  your powerful Synthetic biology platform for experiment.
 - 注册一个用户
 - 输入用户名，邮箱和密码
 - 注册完成后自动登录，我们点击profile来到自己的主页
+- 
 - 搜索用户
-  - Users from USTC
-  - Ertuil
+  - Users in USTC 返回hustcw eruil
+  - meiying
 - 点击关注,查看他关注了那些人，被那些人关注了
 - 查看他的报告，看一看内容，可以评论和点赞。喜欢这份报告可以放入自己的收藏
 - 如果对报告有兴趣也可以点击download下载报告的pdf版
@@ -55,6 +60,12 @@ Welcome to Biohub 3.0,  your powerful Synthetic biology platform for experiment.
 
 
 - **点击search使用智能搜索服务**
+  - Reports today
+  - Reports this year
+  - Reports by meiying
+  - Report #label
+  - Reports by somebody #label
+  - NCBI-PLK1 (蛋白名字)
   - 
 
 

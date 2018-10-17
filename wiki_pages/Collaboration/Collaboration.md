@@ -18,9 +18,9 @@
 
 ## UESTC
 
-​	We invited USETC to experience Biohub and they gave us useful feedback. "Biohub’s UI is awesome and has a sense of science and technology. Also, Biohub can respond fast and smoothly. However, there are also some places need to be improved. For example, there is no introduction to the function of Biohub at its homepage. Besides, it would be better to add the user guide to editor which could be very important for green hands."
+​	We invited UESTC to experience Biohub and they gave us useful feedback. "Biohub’s UI is awesome and has a sense of science and technology. Also, Biohub can respond fast and smoothly. However, there are also some places need to be improved. For example, there is no introduction to the function of Biohub at its homepage. Besides, it would be better to add the user guide to editor which could be very important for green hands."
 
-​	 We have learned a lot from their feedback and now we are improving our function and making our project better.
+​	 We have got a lot from their feedback and now we have improved our function and made our project better. 
 
 ![](./UESTC/学校logo.png)
 

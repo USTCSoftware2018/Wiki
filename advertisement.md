@@ -24,4 +24,4 @@ Biohub editor gives you an amazing writing experience. Reports can be accomplish
 
 ## Intelligent Search Engine
 
- 
+The intelligent search engine based on Natural Language Process is able to understand your words. Our search engine is combined with advanced AI algorithm. You don't need to change pages during working. Just type what you want, everything will be ready in a second. 
