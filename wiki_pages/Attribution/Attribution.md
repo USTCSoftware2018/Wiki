@@ -4,7 +4,7 @@
 
 We sincerely thank team **USTC-Software-2017**, who gave us much advice, and their project, **Biohub 2.0**, from which our project got helped.
 
-We sincerely thank all free software that we use like **Vue.js**, **axios** and **webpack**. They are the foundation of our project.
+We sincerely thank all the free software that we use like **Vue.js**, **axios**, and **webpack**. They are the foundation of our project.
 
 #### Support
 
@@ -24,5 +24,5 @@ We sincerely thank the **School of Life Sciences, USTC** for their academic supp
 - **Frontend**: Yi Jingwei, Chen Lutong, Xie Bohao, Wang Tong, Yu Zihao, Gao Nan and He Liyang.
 - **Backend**: He Jiyan, Ma Kai, Zhang Hao, Guan Xiuxian, Zhang Bowen and Zheng Qixuan.
 - **Wiki**: Guo Yaochi and Pan Jie.
-- **Art**: Li Wenrui, Xie Bohao and Wang Tong.
+- **Art**: Li Wenrui, Xie Bohao, and Wang Tong.
 - **Biology**: Zhou Yitian and Cui Meiying.
