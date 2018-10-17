@@ -44,6 +44,6 @@ Object-Relational Mapping (ORM) allows us to work with objects and have them sav
 
 ORM makes our `user`,`report`,`notice` and more models easy to query, to list and to link to each other.
 
-![ORM.png](ORM.png)
+![ORM.svg](ORM.svg)
 
 In our project, we use **Django ORM** with MySQL backend as the underlying models to provide fast and flexible queries.
