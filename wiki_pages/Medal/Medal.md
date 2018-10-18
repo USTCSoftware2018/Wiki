@@ -35,7 +35,7 @@
 
 ### Collaboration:
 
-​	We keep collaborating with **SJTU-software**, **UESTC-Software**, **USTC**. Check [COLLABORATION](http://2018.igem.org/Team:USTC-Software/Collaborations) for details.
+​	We keep collaborating with **SJTU-software**, **UESTC-Software**, **USTC**. Check [COLLABORATIONS](http://2018.igem.org/Team:USTC-Software/Collaborations) for details.
 
 ### Human Practices:
 
